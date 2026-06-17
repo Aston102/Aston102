@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Иван",
+    "books": [
+      {
+        "title": "Clean Code",
+        "author": "Robert Martin",
+        "year": 2008,
+        "pages": 464
+      },
+      {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "year": 2018,
+        "pages": 416
+      },
+      {
+        "title": "Java Concurrency in Practice",
+        "author": "Brian Goetz",
+        "year": 2006,
+        "pages": 384
+      },
+      {
+        "title": "Design Patterns",
+        "author": "Erich Gamma",
+        "year": 1994,
+        "pages": 395
+      },
+      {
+        "title": "Head First Java",
+        "author": "Kathy Sierra",
+        "year": 2005,
+        "pages": 720
+      }
+    ]
+  },
+  {
+    "name": "Анна",
+    "books": [
+      {
+        "title": "Spring in Action",
+        "author": "Craig Walls",
+        "year": 2022,
+        "pages": 520
+      },
+      {
+        "title": "Clean Code",
+        "author": "Robert Martin",
+        "year": 2008,
+        "pages": 464
+      },
+      {
+        "title": "Algorithms",
+        "author": "Robert Sedgewick",
+        "year": 2011,
+        "pages": 976
+      },
+      {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "year": 2018,
+        "pages": 448
+      },
+      {
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt",
+        "year": 1999,
+        "pages": 352
+      }
+    ]
+  }
+]

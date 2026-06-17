@@ -1,0 +1,38 @@
+# Maven build
+target/
+
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
+.env
+
+# Maven wrapper (если не используешь)
+.mvn/
+mvnw
+mvnw.cmd
