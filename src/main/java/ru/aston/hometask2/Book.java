@@ -1,4 +1,4 @@
-package src.main.java.ru.aston.hometask2;
+package ru.aston.hometask2;
 
 import java.util.Objects;
 
@@ -13,6 +13,9 @@ public class Book {
         this.author = author;
         this.year = year;
         this.pages = pages;
+    }
+
+    public Book() {
     }
 
     public String getTitle() {

@@ -1,33 +1,46 @@
-package src.main.java.ru.aston.hometask2;
+package ru.aston.hometask2;
+
+import java.util.List;
 
 public class Student {
-    private String name;
-    private List<Student> books;
 
-    public Student(List<Student> books, String name) {
+    private String name;
+    private List<Book> books;
+
+    public Student() {
+    }
+
+    public Student(String name, List<Book> books) {
         if (books == null || books.size() < 5) {
             throw new IllegalArgumentException(
+                    "У студента должно быть минимум 5 книг"
             );
         }
-        this.books = books;
+
         this.name = name;
+        this.books = books;
     }
+
 
     public String getName() {
         return name;
     }
 
+
+    public List<Book> getBooks() {
+        return books;
+    }
+
+
     public void setName(String name) {
         this.name = name;
     }
 
-    public List<Student> getBooks() {
-        return books;
-    }
 
-    public void setBooks(List<Student> books) {
+    public void setBooks(List<Book> books) {
         this.books = books;
     }
+
 
     @Override
     public String toString() {
