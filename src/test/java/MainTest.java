@@ -19,7 +19,6 @@ class MainTest {
                 new File("src/main/resources/students.json"),
                 new TypeReference<>() {}
         );
-
         assertEquals(2, students.size());
         assertTrue(students.stream().allMatch(student -> student.getBooks().size() >= 5));
     }
