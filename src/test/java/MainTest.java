@@ -17,7 +17,7 @@ class MainTest {
     void shouldReadStudentsFromJson() throws Exception {
         List<Student> students = new ObjectMapper().readValue(
                 new File("src/main/resources/students.json"),
-                new TypeReference<List<Student>>() {}
+                new TypeReference<>() {}
         );
 
         assertEquals(2, students.size());
